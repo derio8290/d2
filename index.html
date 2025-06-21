@@ -1,20 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Entry Question</title>
-    <script>
-        function ask() {
-            if (confirm('Do you want to enter?')) {
-                window.location.href = 'love.html';
-            } else {
-                document.getElementById('message').textContent = 'Maybe next time!';
-            }
-        }
-        window.onload = ask;
-    </script>
+  <title>Welcome</title>
 </head>
 <body>
-    <p id="message"></p>
+  <h1>Do you want to enter?</h1>
+  <a href="yes.html">Yes</a> |
+  <a href="no.html">No</a>
 </body>
 </html>
