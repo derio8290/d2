@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Entry Question</title>
+    <script>
+        function ask() {
+            if (confirm('Do you want to enter?')) {
+                window.location.href = 'love.html';
+            } else {
+                document.getElementById('message').textContent = 'Maybe next time!';
+            }
+        }
+        window.onload = ask;
+    </script>
+</head>
+<body>
+    <p id="message"></p>
+</body>
+</html>
